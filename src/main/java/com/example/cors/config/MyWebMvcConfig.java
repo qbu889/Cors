@@ -17,6 +17,6 @@ public class MyWebMvcConfig implements WebMvcConfigurer {
         registry.addMapping("/book/**")
                 .allowedMethods("*")
                 .maxAge(1800)
-                .allowedOrigins("http://localhost:8081");
+                .allowedOrigins("http://10.0.248.75:8081");
     }
 }
